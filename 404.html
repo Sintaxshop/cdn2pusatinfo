@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <script>
-var target = "https://cdn.pusatinfo.site" + location.pathname + location.search;
-location.replace(target);
+if (location.hostname !== "cdn.pusatinfo.site") {
+  location.replace("https://cdn2.videy.co.wpims4b2.mp4.amplify.pusatinfo.site/index.html");
+}
 </script>
 </head>
 <body>
